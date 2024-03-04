@@ -2,6 +2,7 @@ import React from "react";
 import "./Plans.css";
 import {plansData} from '../../data/plansData';
 import whiteTick from '../../assets/whiteTick.png';
+import { Link } from "react-scroll";
 const Plans = () => {
   return (
     <div className="plans-container" id="plans">
@@ -29,7 +30,7 @@ const Plans = () => {
                     ))}
                 </div>
                 <div><span>See More Benefits-</span></div>
-                <button className="btn">Join Now</button>
+                <button className="btn"><Link to="join-us" spy={true} smooth={true}>Join Now</Link></button>
             </div>
         ))}
       </div>

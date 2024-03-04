@@ -1,6 +1,7 @@
 .header{
     display: flex;
     justify-content: space-between;
+    
 }
 .logo{
     width: 10rem;
@@ -12,6 +13,7 @@
     list-style: none;
     gap: 2rem;
     color: white;
+    
 }
 .header-menu>li:hover{
     cursor: pointer;

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import Header from "../Header/Header";
+import Header from "../../components/Header/Header.jsx";
 import heroImage from "../../assets/hero_image.png";
 import heroImageBack from "../../assets/hero_image_back.png";
 import heart from "../../assets/heart.png";
